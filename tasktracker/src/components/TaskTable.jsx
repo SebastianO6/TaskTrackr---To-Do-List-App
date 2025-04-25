@@ -10,6 +10,7 @@ const TaskTable = ({ tasks, deleteTask }) => {
     );
   }
 
+  
   return (
     <div className="task-table-container">
       <h3 className="table-title">Task List</h3>

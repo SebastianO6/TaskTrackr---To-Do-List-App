@@ -11,7 +11,8 @@ const TaskForm = ({ addTask }) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
   };
-
+ 
+  
   const handleSubmit = (e) => {
     e.preventDefault();
     addTask(formData);
@@ -27,7 +28,7 @@ const TaskForm = ({ addTask }) => {
         onChange={handleChange}
         required
       /> 
-      
+
       <input
         name="description"
         placeholder="Description"
