@@ -1,6 +1,16 @@
 import React from 'react';
 
 const TaskTable = ({ tasks, deleteTask }) => {
+  // Add a check to ensure tasks is an array before mapping
+  if (!Array.isArray(tasks)) {
+    return (
+      <div>
+        <h3 className="table-title">Task List</h3>
+        <p>No tasks to display.</p> {/* Or a message like "Loading tasks..." */}
+      </div>
+    );
+  }
+
   return (
     <div>
       <h3 className="table-title">Task List</h3>
