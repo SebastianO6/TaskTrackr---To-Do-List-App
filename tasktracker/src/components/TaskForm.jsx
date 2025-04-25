@@ -6,7 +6,7 @@ const TaskForm = ({ addTask }) => {
     description: "",
     dueDate: "",
   });
-
+ 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
@@ -26,7 +26,8 @@ const TaskForm = ({ addTask }) => {
         value={formData.title}
         onChange={handleChange}
         required
-      />
+      /> 
+      
       <input
         name="description"
         placeholder="Description"
