@@ -1,20 +1,19 @@
 import React from 'react';
 
 const TaskTable = ({ tasks, deleteTask }) => {
-  // Add a check to ensure tasks is an array before mapping
   if (!Array.isArray(tasks)) {
     return (
-      <div>
+      <div className="task-table-container">
         <h3 className="table-title">Task List</h3>
-        <p>No tasks to display.</p> {/* Or a message like "Loading tasks..." */}
+        <p>No tasks to display.</p>
       </div>
     );
   }
 
   return (
-    <div>
+    <div className="task-table-container">
       <h3 className="table-title">Task List</h3>
-      <table>
+      <table className="task-table">
         <thead>
           <tr>
             <th>Title</th>
@@ -30,7 +29,7 @@ const TaskTable = ({ tasks, deleteTask }) => {
               <td>{task.description}</td>
               <td>{task.dueDate}</td>
               <td>
-                <button onClick={() => deleteTask(index)}>Delete</button>
+                <button className="delete-btn" onClick={() => deleteTask(index)}>Delete</button>
               </td>
             </tr>
           ))}
