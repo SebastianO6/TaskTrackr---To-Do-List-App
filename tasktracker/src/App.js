@@ -9,7 +9,7 @@ function App() {
   const [tasks, setTasks] = useState([]);
 
   const addTask = (newTask) => {
-    setTasks([...tasks, newTask]);
+     setTasks([...tasks, newTask]);
   };
 
   const deleteTask = (indexToDelete) => {
