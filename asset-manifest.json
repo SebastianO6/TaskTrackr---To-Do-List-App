@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/TaskTrackr---To-Do-List-App/static/css/main.398e41b8.css",
+    "main.js": "/TaskTrackr---To-Do-List-App/static/js/main.df5c834b.js",
+    "static/js/453.baff613d.chunk.js": "/TaskTrackr---To-Do-List-App/static/js/453.baff613d.chunk.js",
+    "index.html": "/TaskTrackr---To-Do-List-App/index.html",
+    "main.398e41b8.css.map": "/TaskTrackr---To-Do-List-App/static/css/main.398e41b8.css.map",
+    "main.df5c834b.js.map": "/TaskTrackr---To-Do-List-App/static/js/main.df5c834b.js.map",
+    "453.baff613d.chunk.js.map": "/TaskTrackr---To-Do-List-App/static/js/453.baff613d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.398e41b8.css",
+    "static/js/main.df5c834b.js"
+  ]
+}
